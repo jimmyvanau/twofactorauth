@@ -15,6 +15,15 @@ websites:
     img: 7pass.png
     lang: de
 
+- name: Auth0
+    url: https://auth0.com
+    img: auth0.png
+    tfa:
+      - sms
+      - totp
+      - proprietary
+    doc: https://auth0.com/docs/dashboard/manage-dashboard-admins#add-change-or-remove-mfa
+
   - name: bitwarden
     url: https://bitwarden.com
     img: bitwarden.png
