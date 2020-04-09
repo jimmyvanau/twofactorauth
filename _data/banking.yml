@@ -624,6 +624,14 @@ websites:
     img: hsbc.png
     lang: es
 
+  - name: HSBC Australia
+    url: https://www.hsbc.com.au/
+    img: hsbc.png
+    tfa:
+      - proprietary
+      - hardware
+    doc: https://www.hsbc.com.au/ways-to-bank/support/digital-secure-key/
+
   - name: Huntington National Bank
     url: https://www.huntington.com
     twitter: Huntington_Bank
