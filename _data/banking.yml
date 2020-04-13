@@ -874,6 +874,15 @@ websites:
       - proprietary
     exception: "TFA only available for Swedish residents with BankID."
 
+  - name: norisbank
+    url: https://www.norisbank.de/
+    img: norisbank.png
+    tfa:
+      - sms
+      - proprietary
+      - hardware
+    doc: https://www.norisbank.de/service/zwei-faktor-authentifizierung.html
+
   - name: Northeast Credit Union
     url: https://necu.org
     img: necu.png
@@ -1349,6 +1358,14 @@ websites:
     twitter: wilobank
     facebook: wilobank
     lang: es
+
+  - name: Woodforest National Bank
+    url: https://www.woodforest.com/
+    img: woodforest.png
+    tfa:
+      - totp
+      - sms
+    doc: https://www.woodforest.com/Personal/Services/Online-Banking/Online-Banking-Security
 
   - name: Zagrebačka banka
     url: https://www.zaba.hr/
